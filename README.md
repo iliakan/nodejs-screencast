@@ -1,6 +1,6 @@
-== Nodejs screencast code
+# Nodejs screencast code
 
-== Getting started
+## Getting started
 
 1. Fork this repo
 
