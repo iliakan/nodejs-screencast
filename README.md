@@ -14,11 +14,11 @@
 
 Title: [Модули для Node.JS](http://www.youtube.com/watch?v=fRDVLsieNBs)  
 Initial code: git checkout -f s5  
-[03:10 Exports non-working example: ](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=190s) <code>git checkout -f s5_1</code>  
-[04:50 Working exports example: ](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=289s)<code>git checkout -f s5_2</code>  
-06:00 Export User to global: <code>git checkout -f s5_3</code>  
-07:40 Json localization. <code>git checkout -f s5_4</code>    
-09:30 Moved files to user directory. <code>git checkout -f s5_5</code>    
+[03:10 Exports non-working example](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=190s): <code>git checkout -f s5_1</code>  
+[04:50 Working exports example](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=289s): <code>git checkout -f s5_2</code>  
+[05:51 Export User to global](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=351s): <code>git checkout -f s5_3</code>  
+[08:21 Json localization](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_4</code>    
+[09:36 Moved files to user directory](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_5</code>    
 ______________________________________
 Video: http://www.youtube.com/watch?v=07-zFk5S2X4<br />  
 Title: Приёмы работы с модулями  
