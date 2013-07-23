@@ -1,13 +1,13 @@
 # Код для скринкаста по Node.JS
 
-## Как мне забрать код?
+## Начинаем работу с кодом
 
 [Eng plz](https://github.com/iliakan/nodejs-screencast/wiki/English-version-of-code-for-Node.JS-screencast.)
 
 1. Выполните следующую команду: <code>git clone https://github.com/iliakan/nodejs-screencast.git</code>
 
 3. Дальше можно кликнуть на любую из ссылок ниже и начать смотреть видео. Для получения кода для этого видео, достаточно
-выполнить соответствующую команду. Например для первого видео нужно выполнить команду: <code>git checkout -f s5</code>
+выполнить соответствующую команду. Например, для первого видео нужно выполнить команду: <code>git checkout -f s5</code>
 
 4. Дальше вы можете пользоваться кодом по ходу просмотра видео. Придумывать свои примеры на его основе и экспериментировать, чтобы
 лучше узнать возможности Node.JS. В любой момент вы можете вернуться к первоначальной версии кода.
@@ -30,23 +30,18 @@ ______________________________________
 14:50 Переносим базу на уровень выше. Установка переменной NODE_PATH. <code>git checkout -f s6_7</code>
 18:00 Добавление логгера. <code>git checkout -f s6_8</code>
 _________________________________________
-Video: http://www.youtube.com/watch?v=fhwtUW9dXrA  
-Title: Введение в NPM - менеджер пакетов для Node.JS  
-Initial code: <code>git checkout -f s7_1</code>  
+Название: [Введение в NPM - менеджер пакетов для Node.JS](http://www.youtube.com/watch?v=fhwtUW9dXrA)
+Стартовый код: <code>git checkout -f s7_1</code>
 _________________________________________
-
-Video: http://www.youtube.com/watch?v=CrevZgTc7ow  
-Title: Структура пакета NPM  
+Название: [Структура пакета NPM](http://www.youtube.com/watch?v=CrevZgTc7ow)
 Initial code: <code>git checkout -f s8_1</code>  
 _________________________________________
-Video: http://www.youtube.com/watch?v=6hUceqsmfCw  
-Title: Глобальные модули  
-Initial code: Use the force.  
+Название: [Глобальные модули](http://www.youtube.com/watch?v=6hUceqsmfCw)
+Стартовый код: Код не нужен.
 _________________________________________
-Video: http://www.youtube.com/watch?v=ZN8KFtXtjaw
-Title: Модуль util и наследование
-Initial code: <code>git checkout -f s10_1</code>  
-01:00 Added inspect function to customize object output. <code>git checkout -f s10_2</code>  
-01:29 Util format example. <code>git checkout -f s10_3</code>  
-02:30 Inherits example. <code>git checkout -f s10_4</code>  
-05:00 Inherits example with Error object. <code>git checkout -f s10_5</code>  
+Название: [Модуль util и наследование](http://www.youtube.com/watch?v=ZN8KFtXtjaw)
+Начальный код: <code>git checkout -f s10_1</code>
+01:00 Функция inspect для вывода содержимого объекта. <code>git checkout -f s10_2</code>
+01:29 Функция format для форматирования вывода. <code>git checkout -f s10_3</code>
+02:30 Пример использования inherits для наследования. <code>git checkout -f s10_4</code>
+05:00 Пример наследования для специального объекта Error. <code>git checkout -f s10_5</code>
