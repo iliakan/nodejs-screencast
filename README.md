@@ -1,35 +1,34 @@
-# Nodejs screencast code
+# Код для скринкаста по Node.JS
 
-## Getting started
+## Как мне забрать код?
 
-1. Fork this repo
+[Eng plz](https://github.com/iliakan/nodejs-screencast/wiki/English-version-of-code-for-Node.JS-screencast.)
 
-2. Execute the following command:
+1. Выполните следующую команду: <code>git clone https://github.com/iliakan/nodejs-screencast.git</code>
 
-3. To move to the next video, just type:
+3. Дальше можно кликнуть на любую из ссылок ниже и начать смотреть видео. Для получения кода для этого видео, достаточно
+выполнить соответствующую команду. Например для первого видео нужно выполнить команду: <code>git checkout -f s5</code>
 
-4. You can omit your changes and start from scratch all the time.
+4. Дальше вы можете пользоваться кодом по ходу просмотра видео. Придумывать свои примеры на его основе и экспериментировать, чтобы
+лучше узнать возможности Node.JS. В любой момент вы можете вернуться к первоначальной версии кода.
 
-5. Have a good example? Share with us!
-
-Title: [Модули для Node.JS](http://www.youtube.com/watch?v=fRDVLsieNBs)  
-Initial code: git checkout -f s5  
-[03:10 Exports non-working example](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=190s): <code>git checkout -f s5_1</code>  
-[04:50 Working exports example](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=289s): <code>git checkout -f s5_2</code>  
-[05:51 Export User to global](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=351s): <code>git checkout -f s5_3</code>  
-[08:21 Json localization](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_4</code>    
-[09:36 Moved files to user directory](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_5</code>    
+Название: [Модули для Node.JS](http://www.youtube.com/watch?v=fRDVLsieNBs)
+Стартовый код: <code>git checkout -f s5</code>
+[03:10 Exports не работающий пример](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=190s): <code>git checkout -f s5_1</code>
+[04:50 Работающий пример с exports](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=289s): <code>git checkout -f s5_2</code>
+[05:51 Экспортируем User с помощью global](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=351s): <code>git checkout -f s5_3</code>
+[08:21 Локализация с помощью Json](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_4</code>
+[09:36 Перенесение файлов в папку user](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_5</code>
 ______________________________________
-Video: http://www.youtube.com/watch?v=07-zFk5S2X4<br />  
-Title: Приёмы работы с модулями  
-Initial code: <code>git checkout -f s6_1</code>  
-03:10 Added module.parent check. <code>git checkout -f s6_2</code>  
-03:55 Added app.js and server.run(). <code>git checkout -f s6_3</code>  
-05:30 Various exports options. <code>git checkout -f s6_4</code>  
-08:25 Db working example. <code>git checkout -f s6_5</code>  
-12:50 Moved db to node modules. <code>git checkout -f s6_6</code>  
-14:50 moved db one level above. NODE_PATH setting. <code>git checkout -f s6_7</code>  
-18:00 Added logger. <code>git checkout -f s6_8</code>  
+Название: [Приёмы работы с модулями](http://www.youtube.com/watch?v=07-zFk5S2X4)
+Стартовый код: <code>git checkout -f s6_1</code>
+03:10 Добавлена проверка через module.parent. <code>git checkout -f s6_2</code>
+03:55 Добавлен app.js и server.run(). <code>git checkout -f s6_3</code>
+05:30 Иллюстрация различных вариантов экспорта. <code>git checkout -f s6_4</code>
+08:25 Пример в базой данных. <code>git checkout -f s6_5</code>
+12:50 Перемещение базы в папку node modules. <code>git checkout -f s6_6</code>
+14:50 Переносим базу на уровень выше. Установка переменной NODE_PATH. <code>git checkout -f s6_7</code>
+18:00 Добавление логгера. <code>git checkout -f s6_8</code>
 _________________________________________
 Video: http://www.youtube.com/watch?v=fhwtUW9dXrA  
 Title: Введение в NPM - менеджер пакетов для Node.JS  
