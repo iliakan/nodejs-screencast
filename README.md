@@ -22,13 +22,13 @@ ______________________________________
 ______________________________________
 Название: [Приёмы работы с модулями](http://www.youtube.com/watch?v=07-zFk5S2X4)  
 Стартовый код: <code>git checkout -f s6_1</code>  
-03:10 Добавлена проверка через module.parent. <code>git checkout -f s6_2</code>  
-03:55 Добавлен app.js и server.run(). <code>git checkout -f s6_3</code>  
-05:30 Иллюстрация различных вариантов экспорта. <code>git checkout -f s6_4</code>  
-08:25 Пример в базой данных. <code>git checkout -f s6_5</code>  
-12:50 Перемещение базы в папку node modules. <code>git checkout -f s6_6</code>  
-14:50 Переносим базу на уровень выше. Установка переменной NODE_PATH. <code>git checkout -f s6_7</code>  
-18:00 Добавление логгера. <code>git checkout -f s6_8</code>  
+[03:11 Добавлена проверка через module.parent](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=191) <code>git checkout -f s6_2</code>  
+[03:55 Добавлен app.js и server.run()](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=235) <code>git checkout -f s6_3</code>  
+[06:22 Иллюстрация различных вариантов экспорта](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=382) <code>git checkout -f s6_4</code>  
+[08:25 Пример в базой данных](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=505) <code>git checkout -f s6_5</code>  
+[12:50 Перемещение базы в папку node_modules](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=771) <code>git checkout -f s6_6</code>  
+[14:50 Переносим базу на уровень выше. Установка переменной NODE_PATH](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=890) <code>git checkout -f s6_7</code>  
+[18:34 Добавление логгера](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=1114) <code>git checkout -f s6_8</code>  
 _________________________________________
 Название: [Введение в NPM - менеджер пакетов для Node.JS](http://www.youtube.com/watch?v=fhwtUW9dXrA)  
 Стартовый код: <code>git checkout -f s7_1</code>  
