@@ -41,7 +41,7 @@ _________________________________________
 _________________________________________
 Название: [Модуль util и наследование](http://www.youtube.com/watch?v=ZN8KFtXtjaw)  
 Начальный код: <code>git checkout -f s10_1</code>  
-01:00 Функция inspect для вывода содержимого объекта. <code>git checkout -f s10_2</code>  
-01:29 Функция format для форматирования вывода. <code>git checkout -f s10_3</code>  
-02:30 Пример использования inherits для наследования. <code>git checkout -f s10_4</code>  
-05:00 Пример наследования для специального объекта Error. <code>git checkout -f s10_5</code>  
+[00:51 Функция inspect для вывода содержимого объекта](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=51) <code>git checkout -f s10_2</code>  
+[01:29 Функция format для форматирования вывода](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=102) <code>git checkout -f s10_3</code>  
+[02:52 Пример использования inherits для наследования](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=172) <code>git checkout -f s10_4</code>  
+[04:15 Пример наследования для специального объекта Error](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=255) <code>git checkout -f s10_5</code>  
