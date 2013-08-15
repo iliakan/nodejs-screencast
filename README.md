@@ -1,6 +1,10 @@
 # Код для скринкаста по Node.JS
 
-- modules-1
+Страница скринкаста: [http://learn.javascript.ru/nodejs-screencast](http://learn.javascript.ru/nodejs-screencast).
+
+Код есть для всех выпусков, где он важен.
+
+- Модули для Node.JS `[modules-1-intro]`
   1. Файл с классом User
   2. Простой require (не работает)
   3. Пример require + exports 
@@ -8,50 +12,50 @@
   5. Вынос фраз в модуль ru.json
   6. Вынос user в директорию
 
-- modules-2
+- Приёмы работы с модулями `[modules-2-module]`
   1. Сервер с запуском в режиме экспорта или приложения 
   2. Экспорт функции через module.exports
   3. Использование "базы данных" db в server и user
   4. Поиск db без пути, модуль в node_modules
   5. Добавление логгера
 
-- top-1-util
+- Модуль util и наследование `[top-1-util]`
   1. Пример использования format
   2. Пример использования inspect
   3. Пример использования inherit
 
-- top-2-console
+- Модуль console `[top-2-console]`
   1. Вызовы методов консоли
 
-- top-3-inherit-error
+- Наследование от ошибок Error `[top-3-inherit-error]`
   1. Пример кода без обработки ошибок
   2. Добавлены классы ошибок и их обработка
 
-- top-4-eventemitter
+- События, EventEmitter и утечки памяти `[top-4-eventemitter]`
   1. Демо EventEmitter
   2. Демо обработки ошибок
   3. Исходный объект Request, без утечек памяти
   4. Утечка памяти с предупреждением от EventEmitter
   5. Исправленная утечка 
 
-- server-1-intro
+- Node.JS как веб-сервер `[server-1-intro]`
   1. "Привет, мир"
   2. "Привет, мир" со счётчиком
   3. Вывод событий в консоль
 
-- server-2-echo
+- Эхо-сервер на Node.JS `[server-2-echo]`
   1. Echo-сервер
 
-- dev-3-module
+- Документация к модулю http `[dev-3-module]`
   1. Логирование при помощи debug
   2. Логирование обёрткой над winston
 
-- event-loop-1-async
+- Введение в асинхронную разработку `[event-loop-1-async]`
   1. Синхронный сервер для index.html
   2. Асинхронный сервер для index.html
   3. Синхронный сервер с try..catch для index.html
 
-- event-loop-3-timers
+- Событийный цикл, библиотека libUV `[event-loop-3-timers]`
   1. Простой сервер на 2.5 секунды
   2. Тот же сервер с выводом памяти по setInterval
   3. Сервер после вызова timer.unref()
