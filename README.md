@@ -1,47 +1,59 @@
 # Код для скринкаста по Node.JS
 
-## Начинаем работу с кодом
+- modules-1
+  1. Файл с классом User
+  2. Простой require (не работает)
+  3. Пример require + exports 
+  4. Экспортируем User с помощью global
+  5. Вынос фраз в модуль ru.json
+  6. Вынос user в директорию
 
-[Eng plz](https://github.com/iliakan/nodejs-screencast/wiki/English-version-of-code-for-Node.JS-screencast.)
+- modules-2
+  1. Сервер с запуском в режиме экспорта или приложения 
+  2. Экспорт функции через module.exports
+  3. Использование "базы данных" db в server и user
+  4. Поиск db без пути, модуль в node_modules
+  5. Добавление логгера
 
-1. Выполните следующую команду: <code>git clone https://github.com/iliakan/nodejs-screencast.git</code>
+- top-1-util
+  1. Пример использования format
+  2. Пример использования inspect
+  3. Пример использования inherit
 
-2. Дальше можно кликнуть на любую из ссылок ниже и начать смотреть видео. Для получения кода для этого видео, достаточно
-выполнить соответствующую команду. Например, для первого видео нужно выполнить команду: <code>git checkout -f s5</code>
+- top-2-console
+  1. Вызовы методов консоли
 
-3. Дальше вы можете пользоваться кодом по ходу просмотра видео. Придумывать свои примеры на его основе и экспериментировать, чтобы
-лучше узнать возможности Node.JS. В любой момент вы можете вернуться к первоначальной версии кода.  
-______________________________________
-Название: [Модули для Node.JS](http://www.youtube.com/watch?v=fRDVLsieNBs)  
-Стартовый код: <code>git checkout -f s5</code>  
-[03:10 Exports не работающий пример](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=190s): <code>git checkout -f s5_1</code>  
-[04:50 Работающий пример с exports](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=289s): <code>git checkout -f s5_2</code>  
-[05:51 Экспортируем User с помощью global](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=351s): <code>git checkout -f s5_3</code>  
-[08:21 Локализация с помощью Json](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_4</code>  
-[09:36 Перенесение файлов в папку user](http://www.youtube.com/watch?v=fRDVLsieNBs&feature=player_detailpage#t=500s): <code>git checkout -f s5_5</code>  
-______________________________________
-Название: [Приёмы работы с модулями](http://www.youtube.com/watch?v=07-zFk5S2X4)  
-Стартовый код: <code>git checkout -f s6_1</code>  
-[03:11 Добавлена проверка через module.parent](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=191) <code>git checkout -f s6_2</code>  
-[03:55 Добавлен app.js и server.run()](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=235) <code>git checkout -f s6_3</code>  
-[06:22 Иллюстрация различных вариантов экспорта](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=382) <code>git checkout -f s6_4</code>  
-[08:25 Пример в базой данных](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=505) <code>git checkout -f s6_5</code>  
-[12:50 Перемещение базы в папку node_modules](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=771) <code>git checkout -f s6_6</code>  
-[14:50 Переносим базу на уровень выше. Установка переменной NODE_PATH](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=890) <code>git checkout -f s6_7</code>  
-[18:34 Добавление логгера](http://www.youtube.com/watch?v=07-zFk5S2X4&feature=player_detailpage&t=1114) <code>git checkout -f s6_8</code>  
-_________________________________________
-Название: [Введение в NPM - менеджер пакетов для Node.JS](http://www.youtube.com/watch?v=fhwtUW9dXrA)  
-Стартовый код: <code>git checkout -f s7_1</code>  
-_________________________________________
-Название: [Структура пакета NPM](http://www.youtube.com/watch?v=CrevZgTc7ow)  
-Initial code: <code>git checkout -f s8_1</code>  
-_________________________________________
-Название: [Глобальные модули](http://www.youtube.com/watch?v=6hUceqsmfCw)  
-Стартовый код: Код не нужен.
-_________________________________________
-Название: [Модуль util и наследование](http://www.youtube.com/watch?v=ZN8KFtXtjaw)  
-Начальный код: <code>git checkout -f s10_1</code>  
-[00:51 Функция inspect для вывода содержимого объекта](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=51) <code>git checkout -f s10_2</code>  
-[01:29 Функция format для форматирования вывода](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=102) <code>git checkout -f s10_3</code>  
-[02:52 Пример использования inherits для наследования](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=172) <code>git checkout -f s10_4</code>  
-[04:15 Пример наследования для специального объекта Error](http://www.youtube.com/watch?v=ZN8KFtXtjaw&feature=player_detailpage&t=255) <code>git checkout -f s10_5</code>  
+- top-3-inherit-error
+  1. Пример кода без обработки ошибок
+  2. Добавлены классы ошибок и их обработка
+
+- top-4-eventemitter
+  1. Демо EventEmitter
+  2. Демо обработки ошибок
+  3. Исходный объект Request, без утечек памяти
+  4. Утечка памяти с предупреждением от EventEmitter
+  5. Исправленная утечка 
+
+- server-1-intro
+  1. "Привет, мир"
+  2. "Привет, мир" со счётчиком
+  3. Вывод событий в консоль
+
+- server-2-echo
+  1. Echo-сервер
+
+- dev-3-module
+  1. Логирование при помощи debug
+  2. Логирование обёрткой над winston
+
+- event-loop-1-async
+  1. Синхронный сервер для index.html
+  2. Асинхронный сервер для index.html
+  3. Синхронный сервер с try..catch для index.html
+
+- event-loop-3-timers
+  1. Простой сервер на 2.5 секунды
+  2. Тот же сервер с выводом памяти по setInterval
+  3. Сервер после вызова timer.unref()
+  4. Демо разницы между nextTick и setImmediate
+  
