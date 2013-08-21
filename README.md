@@ -55,9 +55,34 @@
   2. Асинхронный сервер для index.html
   3. Синхронный сервер с try..catch для index.html
 
-- Событийный цикл, библиотека libUV `[event-loop-3-timers]`
+- Таймер, process.nextTick, ref/unref `[event-loop-3-timers]`
   1. Простой сервер на 2.5 секунды
   2. Тот же сервер с выводом памяти по setInterval
   3. Сервер после вызова timer.unref()
   4. Демо разницы между nextTick и setImmediate
-  
+
+- Асинхронный try..catch, домены
+
+
+- Работа с файлами, модуль fs `[fs-1-fs]`
+  1. Чтение readFile в буфер
+  2. Чтение несуществующего файла, ENOENT
+  3. Пример stats
+  4. Пример writeFile - rename - unlink
+
+- Работа с путями от пользователя `[fs-2-path]`
+  1. Сервер отдачи файлов из директории public
+
+- Потоки в Node.JS, fs.ReadStream `[streams-1-writable]`
+  1. Чтение маленького файла через fs.ReadStream
+  2. Чтение большого файла
+  3. Обработка ошибок
+
+- Writable-поток ответа res, метод pipe `[streams-2-net]`
+  1. Отдача большого файла без потоков
+  2. Отдача большого файла через read - drain - write
+  3. Замена на встроенный метод pipe
+  4. Отдача файла через pipe с обработкой ошибок и обрыва связи
+
+- Чат через long-polling `[long-poll-chat]`
+  1. Чат: клиент и сервер
