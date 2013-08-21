@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body class="container">
+<p class="lead">Добро пожаловать в чат!</p>
+
+<form id="publish" class="form-inline">
+  <input type="text" name="message"/>
+  <input type="submit" class="btn btn-primary" value="Отправить"/>
+</form>
+
+<ul id="messages"></ul>
+
+<script>
+
+  publish.onsubmit = function() {
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", "/publish", true);
+
+    xhr.send(JSON.stringify({message: this.elements.message.value}));
+
+    this.elements.message.value = '';
+
+    return false;
+  };
+
+  subscribe();
+
+  function subscribe() {
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "/subscribe", true);
+
+    xhr.onload = function() {
+      var li = document.createElement('li');
+      li.textContent = this.responseText;
+      messages.appendChild(li);
+
+      subscribe();
+    };
+
+    xhr.onerror = xhr.onabort = function() {
+      setTimeout(subscribe, 500);
+    };
+
+    xhr.send('');
+  }
+
+
+</script>
+</body>
+</html>
