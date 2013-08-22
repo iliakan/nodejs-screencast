@@ -2,12 +2,13 @@ var http = require('http');
 var fs = require('fs');
 
 function handler(req, res) {
-
   if (req.url == '/') {
 
-    fs.readFile('index.html', function(err, info) {
-      if (err) throw err;
-      res.end(info);
+    fs.readFile('no-such-file', function(err, content) {
+
+      if (err) throw err; // JSON.parse("invalid!")
+
+      res.end(content);
     });
 
   } else {
@@ -17,5 +18,6 @@ function handler(req, res) {
 
 }
 
+
 var server = new http.createServer(handler);
-server.listen(3000);
+module.exports = server;
