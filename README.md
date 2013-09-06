@@ -90,3 +90,11 @@
   3. Передача домена внутрь EventEmitter и асинхронных вызовов
   4. Сервер с обработкой запросов в домене
 
+- Создание чата `[chat]`
+  1. Express: основы и Middleware 
+  2. Логгер, конфигурация, шаблонка для HTML 
+  3. Шаблонка: layout, block, partials
+  4. Основы MongoDB, native driver 
+  5. Основы Mongoose
+
+
