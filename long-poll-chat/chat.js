@@ -15,6 +15,8 @@ exports.publish = function(message) {
   console.log("publish '%s'", message);
 
   clients.forEach(function(res) {
+    console.log("send to client");
+    res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
     res.end(message);
   });
 
@@ -23,4 +25,4 @@ exports.publish = function(message) {
 
 setInterval(function() {
   console.log(clients.length);
-}, 2000);
+}, 5000);

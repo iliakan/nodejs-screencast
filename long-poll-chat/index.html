@@ -35,19 +35,22 @@
 
     xhr.open("GET", "/subscribe", true);
 
-    xhr.onload = function() {
+    xhr.onreadystatechange = function() {
+      if (this.readyState != 4) return;
+
+      if (this.status != 200) {
+        setTimeout(subscribe, 500);
+        return;
+      }
+
       var li = document.createElement('li');
-      li.textContent = this.responseText;
+      li.appendChild(document.createTextNode(this.responseText));
       messages.appendChild(li);
 
       subscribe();
     };
 
-    xhr.onerror = xhr.onabort = function() {
-      setTimeout(subscribe, 500);
-    };
-
-    xhr.send('');
+    xhr.send(null);
   }
 
 
