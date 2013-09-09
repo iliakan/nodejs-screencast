@@ -1,10 +1,12 @@
 var http = require('http');
 var fs = require('fs');
+var url = require('url');
 var chat = require('./chat');
 
 http.createServer(function(req, res) {
+  var urlParsed = url.parse(req.url);
 
-  switch (req.url) {
+  switch (urlParsed.pathname) {
     case '/':
       sendFile("index.html", res);
       break;
