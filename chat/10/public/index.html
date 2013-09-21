@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Tahoma, Geneva, sans-serif;
+      }
+
+      div {
+        display: inline;
+      }
+    </style>
+    <script>
+      // Пример из WS.JS
+      function updateStats(memuse) {
+        document.getElementById('rss').innerHTML = memuse.rss;
+        document.getElementById('heapTotal').innerHTML = memuse.heapTotal;
+        document.getElementById('heapUsed').innerHTML = memuse.heapUsed;
+      }
+
+      var ws = new WebSocket('ws://localhost:8080');
+
+      ws.onmessage = function (event) {
+        updateStats(JSON.parse(event.data));
+      };
+
+      ws.onopen = function() {
+        console.log("Соединение установлено.");
+      };
+
+      ws.onclose = function(event) {
+        if (event.wasClean) {
+          console.log('Соединение закрыто чисто');
+        } else {
+          console.log('Обрыв соединения'); // например, "убит" процесс сервера
+        }
+        console.log('Код: ' + event.code + ' причина: ' + event.reason);
+      };
+
+      ws.onerror = function(error) {
+        console.error("Ошибка " + error.message);
+      };
+
+
+    </script>
+  </head>
+  <body>
+    <strong>Server Stats</strong><br>
+    RSS: <div id='rss'></div><br>
+    Heap total: <div id='heapTotal'></div><br>
+    Heap used: <div id='heapUsed'></div><br>
+  </body>
+</html>
