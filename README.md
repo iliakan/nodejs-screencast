@@ -91,10 +91,18 @@
   4. Сервер с обработкой запросов в домене
 
 - Создание чата `[chat]`
-  1. Express: основы и Middleware 
-  2. Логгер, конфигурация, шаблонка для HTML 
-  3. Шаблонка: layout, block, partials
-  4. Основы MongoDB, native driver 
-  5. Основы Mongoose
+  1. Создаём костяк сайта / Express: основы и Middleware
+  2. Улучшаем костяк сайта / Логгер, конфигурация, шаблонка для HTML
+  3. Улучшаем шаблонизацию / EJS: layout, block, partials
+  4. Начинаем работать с базой  / MongoDB, native driver
+  5. Создаём модель для пользователя / Основы Mongoose
+  6. Делаем скрипт для создания тестовой базы / Async, организация кода
+  7. Веб-сервисы, работа с ошибками / Express, Mongoose
+  8. Сессии, отслеживание посетителей / Express
+  9. Авторизация / Express, Mongoose, Async, EJS
+  10. COMET: обзор подходов / WS.JS, Sock.JS, Socket.IO
+  11. Чат на Express и Socket.IO / Socket.IO
+  12. Опции Socket.IO и автореконнект / Socket.IO
+  
 
 
