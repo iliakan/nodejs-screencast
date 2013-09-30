@@ -9,7 +9,7 @@ module.exports = function(server) {
 
     socket.on('message', function(text, cb) {
       socket.broadcast.emit('message', text);
-      cb();
+      cb && cb();
     });
 
   });
