@@ -3,10 +3,19 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "NODE_PATH=`pwd` NODE_ENV='development' node app"
   },
   "dependencies": {
     "express": "3.3.8",
-    "ejs": "*"
+    "ejs": "*",
+    "nconf": "~0.6.9",
+    "winston": "~0.7.2",
+    "mongoose": "~3.8.3",
+    "ejs-locals": "~1.0.2",
+    "connect-mongo": "~0.4.0",
+    "async": "~0.2.9",
+    "connect": "~2.12.0",
+    "cookie": "~0.1.0",
+    "socket.io": "~0.9.16"
   }
 }
