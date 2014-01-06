@@ -1,5 +1,5 @@
 var request = require('supertest');
-var server = require('lib/app');
+var server = require('../lib/app');
 var should = require('should');
 
 describe("GET /", function () {
