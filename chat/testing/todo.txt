@@ -1,0 +1,11 @@
+-- sass (+compass) support
+-- grunt
+-- TDD/BDD tests (unit/jasmine/etc)
+-- minor fixes and enhancements
+-- jsdocs
+-- coffee
+-- lint
+-- jenkins
+-- autodeploy using git
+
+

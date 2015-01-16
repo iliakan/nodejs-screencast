@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "NODE_PATH=`pwd` NODE_ENV='development' node app"
+    "start": "NODE_PATH=`pwd` NODE_ENV='development' node app",
+    "test":  "NODE_PATH=`pwd` NODE_ENV='development' mocha"
   },
   "dependencies": {
     "express": "3.3.8",
@@ -16,6 +17,8 @@
     "async": "~0.2.9",
     "connect": "~2.12.0",
     "cookie": "~0.1.0",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "supertest": "~0.8.2",
+    "should": "~2.1.1" 
   }
 }
