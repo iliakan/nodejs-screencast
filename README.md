@@ -103,6 +103,7 @@
   10. COMET: обзор подходов / WS.JS, Sock.JS, Socket.IO
   11. Чат на Express и Socket.IO / Socket.IO
   12. Опции Socket.IO и автореконнект / Socket.IO
+  13. Socket.IO + Express + авторизация
   
 
 
